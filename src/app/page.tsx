@@ -1,4 +1,7 @@
+"use client"
+
 import { FilmDetails } from "@/components/FilmDetails/FilmDetails";
+import { NewReviewForm } from "@/components/NewReviewForm/NewReviewForm";
 import { Reviews } from "@/components/Reviews/Reviews";
 import React, { useMemo } from "react";
 
@@ -43,6 +46,7 @@ export default function Home() {
         rating={filmRating}
       />
       <Reviews reviews={filmDetails.reviews} />
+      <NewReviewForm />
       {/* <Recommendations /> */}
       <footer />
     </div>

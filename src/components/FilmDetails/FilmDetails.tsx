@@ -1,5 +1,3 @@
-"use client"
-
 import { useCount } from "@/hooks/useCount";
 import { FunctionComponent } from "react";
 import { FilmInfo } from "../FilmInfo/FilmInfo";
